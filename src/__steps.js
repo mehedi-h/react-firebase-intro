@@ -9,4 +9,8 @@
 * In login route page : Import getAuth from firebase/Auth
 *   Create variable : const auth = getAuth(app)
 *   Import googleAuthProvider and create - new provider ()
+* Use signInWithPopup and pass auth and provider
+* Activate different sign in method (google, facebook, github, twitter, etc)
+* ================ more provider ================
+        * Activate the auth provider. (create app, provide redirect url, Client id and secret)
 */
